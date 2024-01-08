@@ -16,7 +16,7 @@
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("../resources/Banner.png");
   background-size: cover;
-  padding: 140px 0;
+  padding: 200px 0;
   border-radius: 16px;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .section-heading {
-  max-width: 500px;
+  max-width: 700px;
   text-align: center;
   margin: 25px auto;
 }
@@ -34,7 +34,7 @@
   color: #fff;
   text-align: center;
   font-family: Merriweather;
-  font-size: 72px;
+  font-size: 90px;
   font-style: normal;
   font-weight: 900;
   line-height: 95px;
@@ -45,7 +45,7 @@
   color: #fff;
   text-align: center;
   font-family: Merriweather;
-  font-size: 32px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -89,4 +89,105 @@
 
 .newyear img {
   padding: 70px 345px;
+}
+
+.party-main {
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url("../resources/Vectorrr.png");
+  background-size: cover;
+  padding: 50px 0;
+  border-radius: 16px;
+  display: flex;
+}
+.party-img {
+  margin-top: 50px;
+}
+.party-heading {
+  max-width: 70%;
+  width: 697px;
+  padding: 100px 150px;
+}
+.party-heading h1 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+  margin-bottom: 20px;
+}
+
+.party-heading p {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+.party-heading button {
+  border-radius: 8px;
+  background: #01465e;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px 28px;
+  cursor: pointer;
+  transition: 1s;
+}
+.party-heading button:hover {
+  background: #ffffff;
+  color: #070211;
+}
+
+.location-main {
+  background-color: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+
+.location {
+  text-align: center;
+  /* padding: 50px; */
+  background-color: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+
+.location p {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.location button {
+  border-radius: 8px;
+  background: #f00;
+  border: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px 28px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.location button:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+.location p span {
+  color: #f00;
 }
