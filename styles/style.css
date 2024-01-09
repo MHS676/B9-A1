@@ -386,7 +386,7 @@
 }
 
 .subscribe form button:hover {
-  background-color: #2980b9;
+  background-color: #06a568;
 }
 
 .subscribe form input::placeholder {
@@ -422,7 +422,7 @@
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 70px;
 }
 
 #news {
