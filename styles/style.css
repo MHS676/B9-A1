@@ -311,10 +311,20 @@
   line-height: 32px; /* 160% */
 }
 
+#box {
+  position: relative;
+}
+
 .all-image {
   background: url(../resources/Rectangle2.png), url(../resources/Group44.png);
   background-repeat: no-repeat;
   display: flex;
+  background-position: bottom, top;
+}
+
+.girl {
+  /* position: absolute; */
+  margin-right: 1000px;
 }
 
 #gift {
